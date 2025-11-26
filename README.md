@@ -1,5 +1,53 @@
-# Vue 3 + Vite
+# Vue.js User Search & Dynamic Table
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+This project is a **Vue.js 3** application that fetches user data from the DummyJSON API and renders it into a **fully dynamic table component**.  
+It demonstrates authentication, dynamic data rendering, filtering, and sorting — all built with **vanilla CSS**, no UI frameworks.
 
-Learn more about IDE Support for Vue in the [Vue Docs Scaling up Guide](https://vuejs.org/guide/scaling-up/tooling.html#ide-support).
+---
+
+## 🛠️ Project Setup
+
+### **Prerequisites**
+- **Node.js** ≥ 16  
+- **npm** (bundled with Node)
+
+---
+
+## 1.Clone Project
+
+```bash
+git clone https://github.com/skygig/assessment.git
+```
+
+## 2. Install Dependencies
+
+```bash
+npm install
+```
+
+## 3. Run Development Server
+
+```bash
+npm run dev
+```
+
+
+## 📂 Project Structure
+
+```bash
+src/
+├── components/
+│   ├── DynamicTable.vue      # Reusable "dumb" table component
+│   └── Login.vue         # Login form with validation
+├── App.vue                   # Main controller (fetch, filter, sort)
+└── main.js                   # Application entry point
+```
+
+## 🔐 Credentials
+
+```bash
+username: admin
+password: admin123
+```
+
+## Thank you :)
